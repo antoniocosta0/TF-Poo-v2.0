@@ -1,5 +1,5 @@
 package model;
 
-public class PremiumStudent {
+public class PremiumStudent extends Student {
     
 }
