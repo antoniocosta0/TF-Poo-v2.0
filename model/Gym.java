@@ -1,15 +1,19 @@
 package model;
+import java.util.ArrayList;
 
-public class Gym <acad> extends Student {
+public class Gym <T>{
     private String name;
     private String address;
     private String telephone;
     private String email;
+    private ArrayList<T> members;
 
-    private Gym(String name, String address, String telephone, String email) {
+    public Gym(String name, String address, String telephone, String email) {
         this.name = name;
         this.address = address;
         this.telephone = telephone;
         this.email = email;
+        this.members = new ArrayList<>();
     }
+
 }
